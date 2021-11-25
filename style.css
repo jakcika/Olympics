@@ -1,0 +1,106 @@
+body {
+    background: #ffffff;
+    font-family: Open Sans
+}
+
+p {
+    font-family: Open Sans
+}
+
+.para-1 {
+
+}
+
+.para-div-1 {
+    width: 40%;
+    margin: auto;
+    font-size: 20px;
+}
+
+.para-div-1 {
+    width: 40%;
+    margin: auto;
+}
+
+.pic {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.gutter-2 {
+
+  }
+
+.fas{
+    text-align: right;
+    float: right;
+    
+}
+
+.card-deck {
+    margin: 0 20px;
+}
+
+
+
+.slide1 {
+    height: 700px;  /* your desired height for this slide */
+    background: url(https://e3.365dm.com/21/02/2048x1152/skynews-tokyo-olympics-games_5262420.jpg) no-repeat center center;
+    background-size: cover;
+}
+.slide2 {
+    height: 300px;  /* your desired height for this slide */
+    background: url(https://i.ytimg.com/vi/0vHaRDwOSFc/maxresdefault.jpg) no-repeat center center;
+    background-size: cover;
+}
+.slide3 {
+    height: 500px;  /* your desired height for this slide */
+    background: url(https://lp-cms-production.imgix.net/2021-06/Italy%20pasta.jpg) no-repeat center center;
+    background-size: cover;
+}
+.slide4 {
+    height: 500px;  /* your desired height for this slide */
+    background: url(http://cdn.cnn.com/cnnnext/dam/assets/210211140150-02-classic-italian-dishes.jpg) no-repeat center center;
+    background-size: cover;
+}
+.slide5 {
+    height: 500px;  /* your desired height for this slide */
+    background: url(https://mldvwwasb8tu.i.optimole.com/5CC9Lzs.esbD~6200b/w:948/h:632/q:90/http://travelaway.me/wp-content/uploads/2016/06/lasagna-bolognese.jpg) no-repeat center center;
+    background-size: cover;
+}
+.slide6 {
+    height: 500px;  /* your desired height for this slide */
+    background: url(https://www.thesun.co.uk/wp-content/uploads/2020/08/NINTCHDBPICT000603046726.jpg) no-repeat center center;
+    background-size: cover;
+}
+.slide7 {
+    height: 500px;  /* your desired height for this slide */
+    background: url(https://www.kikkoman.eu/fileadmin/_processed_/d/0/csm_Italien_0525c8ba3c.jpg) no-repeat center center;
+    background-size: cover;
+}
+.slide8 {
+    height: 500px;  /* your desired height for this slide */
+    background: url(https://archello.s3.eu-central-1.amazonaws.com/images/2021/02/17/eleftherios-ambatzis---039-benini--039-s--039--italian-restaurant-in-rhodes-restaurants-archello.1613530601.251.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+
+
+.carousel-caption {
+    text-align: center;
+    /* padding: 10px 40px 30px;
+    width: 250px; */
+    width: 100%;
+    bottom: -3.5vh;
+    left: 0;
+    box-sizing: border-box;
+    color: white;
+    background: -moz-linear-gradient(top,  rgba(0,0,0,0) 20%, rgba(0,0,0,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(20%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,1))); /* Chrome,Safari4+ */ 
+    background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 20%,rgba(0,0,0,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(0,0,0,0) 20%,rgba(0,0,0,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(0,0,0,0) 20%,rgba(0,0,0,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(0,0,0,0) 20%,rgba(0,0,0,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+
+}

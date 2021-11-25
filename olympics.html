@@ -2,13 +2,112 @@
 <html>
     <head>
         <link href="style.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+
+
+
     </head>
     <body>
-        <div>
-            <p>
+        <div class="para-div-1">
+            <p class="para-1">
                 The Olympic Games are the world's only truly global, multi-sport, celebratory athletics competition. With more than 200 countries participating in over 400 events across the Summer and Winter Games, the Olympics are where the world comes to compete, feel inspired, and be together.
-
             </p>
+        </div>
+        <div class="para-div-2">
+            <h2 class="text-center">
+                Future Games
+            </h2>
+        </div>
+        <!-- <div class="container">      col-md-3     -->
+            <div class="card-deck">
+                <div class="card">
+                    <img class="pic" src="https://upload.wikimedia.org/wikipedia/en/thumb/d/d1/2024_Summer_Olympics_logo.svg/1200px-2024_Summer_Olympics_logo.svg.png">
+                    <div class="card-footer d-flex align-items-end">
+                        <p>Paris 2024</p>
+                        <div class="d-flex text-right"><i class="fas fa-arrow-right"></i></div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="pic" src="https://upload.wikimedia.org/wikipedia/en/6/60/2026_Winter_Olympics_logo.png">
+                    <div class="card-footer d-flex align-items-end">
+                        <p>Paris 2024</p>
+                        <i class="fas fa-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="pic" src="https://upload.wikimedia.org/wikipedia/en/thumb/d/d1/2024_Summer_Olympics_logo.svg/1200px-2024_Summer_Olympics_logo.svg.png">
+                    <div class="card-footer d-flex align-items-end">
+                        <p>Paris 2024</p>
+                        <i class="fas fa-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="pic" src="https://upload.wikimedia.org/wikipedia/en/b/b6/2032_Summer_Olympics_Placeholder_Logo.svg">
+                    <div class="card-footer d-flex align-items-end">
+                        <p>Paris 2024</p>
+                        <i class="fas fa-arrow-right"></i>
+                    </div>
+                </div>
+            </div>
+        <!-- </div> -->
+
+        <div>
+            <h1>RELIVE PAST GAMES</h1>
+            <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel">
+                <ol class="carousel-indicators my-1">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
+
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item slide1 active">
+                        <!-- <img class="d-block w-100 pic" src="https://offloadmedia.feverup.com/secretldn.com/wp-content/uploads/2019/10/18091408/circolo-popolare-feature.jpg" alt="Conchiglia image"> -->
+                        <div class="carousel-caption d-none d-md-block mb-4">
+                            <h2>Tokyo 2020</h2>
+                            <!-- <p>Hungry?</p> -->
+                        </div>
+                    </div>
+                    <div class="carousel-item slide2">
+                        <!-- <img class="d-block w-100 pic" src="https://static.onecms.io/wp-content/uploads/sites/23/2020/06/23/italian-food-2000.jpg" alt="Pastio Carnaby"> -->
+                        <div class="carousel-caption d-none d-md-block mb-4">
+                            <h2>Pyeongchang 2018</h2>
+                            <!-- <p><em>“Pretty near perfect.”</em> - The Guardian</p> -->
+                        </div>
+                    </div>
+                    <div class="carousel-item slide3">
+                        <!-- <img class="d-block w-100 pic" src="https://lp-cms-production.imgix.net/2021-06/Italy%20pasta.jpg" alt="Bella Italia image"> -->
+                        <div class="carousel-caption d-none d-md-block mb-4">
+                            <h2>Rio 2016</h2>
+                            <!-- <p>Ciao Bella!</p> -->
+                        </div>
+                    </div>
+                    <div class="carousel-item slide4">
+                        <!-- <img class="d-block w-100 pic" src="http://cdn.cnn.com/cnnnext/dam/assets/210211140150-02-classic-italian-dishes.jpg" alt="Bella Italia"> -->
+                        <div class="carousel-caption d-none d-md-block mb-4">
+                            <h2>Sopchi 2014</h2>
+                            <!-- <p>For feel-good times, again and again</p> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only" aria-hidden="true">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only" aria-hidden="true">Next</span>
+                </a>
+            </div>
         </div>
     </body>
 </html>
