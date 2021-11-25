@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Olympics</title>
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css"
+        />
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </head>
+
+    <!-- Header Section -->
+    <body>
+        <section class="other-header">
+            <nav>
+                <a href="index.html"><img src=""></a>
+                <div class="nav-buttons" id="navButtons">
+                    <i class="fa fa-times" onclick="closeNav()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="stars.html">CONTACT US</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="openNav()"></i>
+            </nav>
+            <h1>About</h1>
+        </section>
+
+        <!--------- Footer------->
+
+        <section class="footer">
+            <p>Lorem ipsum, lore si dmis sodms sodms di lorem , 
+                Lorem ipsum, lore si dmis sodms sodms di lorem ,Lorem ips <br>
+                Lorem ipsum, lore si dmis sodms sodms di lorem 
+            </p>
+            <div class="social-media">
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-instagram"></i>
+            </div>
+            <p>
+                Created by Phil, Jakcika, Julian 2021.
+            </p>
+        </section>
+
+        <!---------JavaScript for Opening and CLosing the Navigation Menu------->
+        <script>
+            var navButtons = document.getElementById("navButtons");
+            //function to open Navigation menu on mobile screens
+            function openNav() {
+                navButtons.style.right = "0";
+            }
+            //function to close Navigation menu on mobile screens
+            function closeNav() {
+                navButtons.style.right = "-190px";
+            }
+        </script>
+    </body>
+</html>
