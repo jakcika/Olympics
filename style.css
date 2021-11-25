@@ -97,6 +97,8 @@ nav img {
     background: black;
     border: 1px solid black;
     transition: 0.9s;
+    text-decoration: none;
+    color: white;
 }
 
 nav .fa {
@@ -139,8 +141,10 @@ nav .fa {
 .below-section {
     width: 60%;
     text-align: center;
-    padding-top: 80px;
+    padding-top: 20px;
     margin: auto;
+    border-top: 1px solid black;
+    margin-top: 18vh;
 }
 
 .below-section h1 {
@@ -229,4 +233,12 @@ nav .fa {
 
 .other-header h1{
     margin-top: 98px;
+}
+
+/* other button */
+
+.b-btn {
+    background-color: white;
+    color: black;
+    border-radius: 2;
 }
