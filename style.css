@@ -185,6 +185,31 @@ nav .fa {
     letter-spacing: -3px;
 }
 
-.b-btn {
-}
+
+/*----- Footer -----*/
+.footer {
+    width: 100%;
+    padding: 29px 0;
+    text-align: center;
+    background: black;
+    margin-top: 30px;
     
+}
+
+.footer h4 {
+    font-weight: 600;
+    margin-top: 19px;
+    margin-bottom: 24px;
+    color: white;
+}
+
+.footer p {
+    color: white;
+}
+
+.social-media .fa {
+    color: white;
+    padding: 17.5px 0;
+    margin: 0 12.5px;
+    cursor: pointer;
+}
