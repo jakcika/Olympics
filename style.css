@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header {
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(3, 8, 24, 0),rgba(3,8,24,0.7)),url(images/hero.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    padding: 1.7% 5.5%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img {
+    width: 180px;
+}
+
+.nav-buttons {
+    flex: 1;
+    text-align: right;
+}
+
+.nav-buttons ul li {
+    display: inline-block;
+    padding: 9px 14px;
+    position: relative;
+    text-decoration: none;
+    list-style: none;
+}
+
+.nav-buttons ul li::after {
+    display: block;
+    content: '';
+    height: 3px;
+    background: white;
+    margin: auto;
+    width: 0%;
+    transition: 0.6s;
+}
+
+.nav-buttons ul li:hover::after {
+    width: 100%;
+}
+
+.nav-buttons ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+.hero-text {
+    width: 80%;
+    color: white;
+    background-color: none;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transforM: translate(-50%,-50%);
+}
+
+.hero-text h1 {
+    font-size: 38px;
+}
+
+.hero-text p {
+    margin: 8px 0 32px;
+    font-size: 14px;
+    color: white;
+}
+
+.logo {
+    background: green;
+}
+.hero-btn {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;
+    padding: 12px 34px;
+    border: 1px solid white;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+.hero-btn:hover {
+    background: black;
+    border: 1px solid black;
+    transition: 0.9s;
+}
+
+nav .fa {
+    display: none;
+}
+
+@media(max-width: 700px) {
+    .hero-text h1 {
+        font-size: 19px;
+    }
+    .nav-buttons ul li {
+        display: block;
+    }
+    .nav-buttons {
+        position: fixed;
+        background: black;
+        width: 190px;
+        height: 100vh;
+        top: 0;
+        right: -190px;
+        z-index: 2;
+        text-align: left;
+        transition: 1s;
+    }
+    nav .fa {
+        color: white;
+        display: block;
+        font-size: 24px;
+        margin: 11px;
+        cursor: pointer;
+    }
+    .nav-buttons ul {
+        padding: 28px;
+    }
+}
+
+/* below section */
+
+.below-section {
+    width: 60%;
+    text-align: center;
+    padding-top: 80px;
+    margin: auto;
+}
+
+.below-section h1 {
+    padding-bottom: 20px;
+    text-align: left;
+    font-size: 70px;
+    letter-spacing: -4px;
+}
+
+.row {
+    height: 40vh;
+    padding: 10px;
+}
+
+.picone{
+    background-image: linear-gradient(rgba(3, 8, 24, 0),rgba(3,8,24,0.7)),url(images/track.jpg);
+    background-size: cover;
+}
+
+.pictwo {
+    background-image: linear-gradient(rgba(3, 8, 24, 0),rgba(3,8,24,0.7)),url(images/fireworks.jfif);
+    background-size: cover;
+}
+.picthree {
+    background-image: linear-gradient(rgba(3, 8, 24, 0),rgba(3,8,24,0.7)),url(images/torches.jpg);
+    background-size: cover;
+}
+.picfour {
+    background-image: linear-gradient(rgba(3, 8, 24, 0),rgba(3,8,24,0.7)),url(images/track2.jpg);
+    background-size: cover;
+}
+.picfive {
+    background-image: linear-gradient(rgba(3, 8, 24, 0),rgba(3,8,24,0.7)),url(images/mascots.jpg);
+    background-size: cover;
+}
+.picsix {
+    background-image: linear-gradient(rgba(3, 8, 24, 0),rgba(3,8,24,0.7)),url(images/medal.jpg);
+    background-size: cover;
+}
+
+.title {
+    color: white;
+    letter-spacing: -3px;
+}
+
+.b-btn {
+}
+    

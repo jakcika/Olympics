@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Olympics</title>
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css"
+        />
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    </head>
+
+    <!-- Header Section -->
+    <body>
+         <section class="header">
+            <nav>
+                <a href="index.html"><img class="logo" src=></a>
+                <div class="nav-buttons" id="navButtons">
+                    <i class="fa fa-times" onclick="closeNav()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="olympics.html">ABOUT</a></li>
+                        <li><a href="stars.html">STARS</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="openNav()"></i>
+            </nav>
+        </section>
+
+        <div class="hero-text">
+            <h1>Olympics 2022 <br>Beijing</h1>
+            <p>Lorem ipsum, lore si dmis sodms di lorem si dmis sodms di lorem</p>
+            <a href="" class="hero-btn">View The Stars</a>
+        </div>
+
+
+        <!-- Below Header Section -->
+
+        <section class="below-section">
+            <h1>AROUND THE <br>GAMES</h1>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-8 picone">
+                        <h1 class="title">RESULTS</h1>
+                        <a href="" class="hero-btn b-btn">View The Stars</a>
+                    </div>
+                    <div class="col-6 col-md-4 pictwo" ><h1 class="title">REPLAYS</h1>
+                        <a href="" class="hero-btn  b-btn">View The Stars</a></div>
+                </div>
+                <div class="row">
+                    <div class="col-6 col-md-4 picthree"><h1 class="title">TORCHES</h1><a href="" class="hero-btn  b-btn">View The Stars</a></div>
+                    <div class="col-12 col-md-8 picfour"><h1 class="title">ANCIENT GAMES</h1><a href="" class="hero-btn  b-btn">View The Stars</a></div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-8 picfive"><h1 class="title">MASCOTS</h1><a href="" class="hero-btn  b-btn">View The Stars</a></div>
+                    <div class="col-6 col-md-4 picsix"><h1 class="title">MEDAL DESIGN</h1><a href="" class="hero-btn  b-btn">View The Stars</a></div>
+                </div>
+            </div>
+        </section>
+
+        
+
+    <!---------JavaScript for Opening and CLosing the Navigation Menu------->
+    <script>
+        var navButtons = document.getElementById("navButtons");
+        //function to open Navigation menu on mobile screens
+        function openNav() {
+            navButtons.style.right = "0";
+        }
+        //function to close Navigation menu on mobile screens
+        function closeNav() {
+            navButtons.style.right = "-190px";
+        }
+    </script>
+    </body>
+</html>
